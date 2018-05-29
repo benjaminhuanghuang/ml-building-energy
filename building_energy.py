@@ -102,7 +102,7 @@ for b_type in types:
     subset = data[data['Largest Property Use Type'] == b_type]
     
     # Density plot of Energy Star scores
-    sns.kdeplot(subset['score'].dropna(),
+    sns.kdeplot(subset['score'].dropna(),   # Remove missing values.
                label = b_type, shade = False, alpha = 0.8)
     
 # label the plot
