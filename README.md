@@ -1,5 +1,6 @@
 ## Reference
 - A Complete Machine Learning Project Walk-Through in Python
+    - https://towardsdatascience.com/a-complete-machine-learning-walk-through-in-python-part-one-c62152f39420
     - https://github.com/WillKoehrsen/machine-learning-project-walkthrough
     - http://www.nyc.gov/html/gbee/downloads/misc/nyc_benchmarking_disclosure_data_definitions_2017.pdf
 
@@ -19,6 +20,10 @@
     - remove outliers
     
 2. Exploratory data analysis
+    The goal of EDA is to learn what our data can tell us.
+
+    It is an open-ended process where we calculate statistics and make figures to find trends, anomalies, patterns, or relationships within the data.
+
 3. Feature engineering and selection
 4. Compare several machine learning models on a performance metric
 5. Perform hyperparameter tuning on the best model
